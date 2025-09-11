@@ -32,7 +32,7 @@ pip install jira wordcloud matplotlib nltk scikit-learn python-dotenv openai goo
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-REQUESTER_TOKEN=JIRA_SERVER="https://suaempresa.atlassian.net"
+JIRA_SERVER="https://suaempresa.atlassian.net"
 JIRA_USER="seu.email@empresa.com"
 JIRA_TOKEN="seu_token_api"
 JIRA_PROJECT_KEY="key_do_projeto"
